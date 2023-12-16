@@ -3,12 +3,6 @@
     --line-spacing-height: 150%; 
 }
 
-@media print {
-    .pageNumber {
-        counter-set: 3;
-    }
-}
-
 @page {
     width: 210mm;
     height: 297mm;
@@ -21,11 +15,39 @@
 body {
     margin: 0;
     padding: 0;
+
+    counter-reset: figures-num 0 figures-ref 1 figs-num-header 0;
 }
 
-.page-footer {
-    font-size: 10pt;
+h1 {
+    counter-increment: figs-num-header 1;
 }
+
+.figure {
+    counter-increment: figures-num 1 figures-ref 1;
+}
+
+.fig-num {
+    font-weight: bold;
+}
+
+.fig-num::before {
+    content: "Fig. " counter(figs-num-header) "." counter(figures-num);
+}
+
+.fig-ref {
+    font-style: italic;
+    /* counter-increment: figures-ref 1; */
+}
+
+.fig-ref::before {
+    content: "fig. " counter(figs-num-header) "." counter(figures-ref);
+}
+
+
+/* .page-footer {
+    font-size: 10pt;
+} */
 
 /* .pageNumber {
     font-size: 10pt !important;
@@ -397,3 +419,41 @@ li + p {
     text-align: center;
     font-size: 12pt !important;
 }
+
+
+table.toc {
+    width: 100%;
+    border: none;
+    font-size: 12pt;
+}
+
+table.toc td.t {
+    font-weight: bold;
+}
+
+table.toc td, table.toc th {
+    /* border: solid 1px red; */
+    border: none;
+}
+
+table.toc td:nth-of-type(1) {
+    text-align: center;
+    font-weight: bold;
+    width: 20px;
+}
+
+table.toc td:nth-of-type(2) {
+    text-align: center;
+    width: 20px;
+}
+
+table.toc td:nth-of-type(3) {
+    text-align: left;
+}
+
+table.toc td:nth-of-type(4) {
+    text-align: center;
+    width: 20px;
+}
+
+
