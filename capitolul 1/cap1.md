@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../static/css/style.css">
 
-# Capitolul 1. Aspecte Fundamentale ale Zborului Dronelor
+# Capitolul 1. Drone. Aspecte Fundamentale ale Zborului
 
 Într-o eră marcată de o dezvoltare cu pași grăbiți a tehnologiei avansată, domeniul dronelor a captat interesul lumii ce a definit o gamă largă de aplicații în care dronele nu doar ridică eficiența, dar și sporesc calitatea și finalizarea mai rapidă a sarcinilor impuse de către utilizator. În acest capitol, îmi propun să simplific înțelegerea dinamicii zborului dronelor, explorând principiile fundamentale, mecanismele de control și varietatea aplicațiilor în diverse domenii.
 
@@ -66,25 +66,88 @@ Drone echipate cu elice contra-rotative fig. 1.3, denumite și CRP, elice coaxia
 
 Dronele cu caracteristici speciale sau drone specializate fig. 1.4, sunt drone construite pentru o gamă anumită de sarcini, precum dronele subacvatice pentru explorarea adâncimilor marine sau dronele cu capacități de detectare și monitorizare pentru utilizări în cercetare sau apărare. Dronele specializate deseori vin cu echipament auxiliar preinstalat de către producător, ce reduce timpul și investiția în achiziționarea a echipamentelor compatibile.
 
-::: figure 
+::: figure
+![img](./images/drona_specializata.png)
 
-Fig. 1.2 O dronă care analizează zona afectată de uragan
+**Fig. 1.4** O dronă care analizează zona afectată de uragan
 
 [https://www.digitaltrends.com/cool-tech/rescue-drones-hurricane-flood-disaster-relief/]
 :::
 
 Aceste exemple evidențiază versatilitatea și importanța dronelor într-o gamă largă de industrii și aplicații, ilustrând cum dinamica și caracteristicile specifice ale fiecărui tip de dronă pot fi adaptate pentru a îndeplini diverse scopuri.
 
-## 1.4 Energie și propulsie
+## 1.4 Propulsia
 
-Discută despre diferitele tipuri de motoare și surse de energie utilizate în drone, cum ar fi motoarele electrice sau motoarele cu combustie internă, și avantajele și dezavantajele fiecăruia.
+Există mai multe tipuri de propulsie utilizate în diferite tipuri de drone, fiecare având avantaje și dezavantaje specifice. Iată câteva tipuri de propulsie întâlnite la drone:
+
+**Motoare electrice**: sunt cele mai comune pentru dronele tip copter, pot fi motoare electrice cu curent continuu (DC) fig. 1.5 sau cu curent alternativ (AC) și sunt adesea alimentate de baterii litiu-polimer sau alte surse de energie. Avantajul lor este greutatea totală mică la o putere exercitată mare. Un dezavantaj poate fi prețul ridicat.
+
+::: figure
+![img](./images/Lumenier-Johnny-FPV-Best-Drone-Motor-300x300.jpg.webp)
+
+**Fig. 1.5** Lumenier  2207-7 1750 KV JohnnyFPV V2 motor
+
+[https://www.dronezon.com/learn-about-drones-quadcopters/how-drone-motors-esc-propulsion-systems-work/]
+:::
+
+**Motoare cu reacție**: Dronele tip monoplan pot fi echipate cu motoare cu reacție fig. 1.6, similare cu cele găsite în avioanele cu reacție. Avantajul motoarelor cu reacție sunt viteze mari la gabarite relativ mici ale dronei. Un dezavantaj poate fi timpul de zbor mai mic ca la dronele cu motoarele electrice la aceleași dimensiuni ale dronei. La gabarite mici ale dronei nu mereu există posibilitatea de a instala un rezervor mai mare pentru combustibil, fapt ce datorează timp de zbor scurt, dar în același timp la vitezele mari exercitate de propulsia cu jet, obținem o distanță parcursă mult mai mare decât la dronele cu motoare electrice.
+
+::: figure
+![img](./images/pbs_aircraft_engines.jpg)
+
+**Fig 1.6** Jet Engine TJ 40-G2
+
+[http://aiteam.org/SmallPlane/small-jet-engine-kit]
+:::
+
+**Motoare hibride**: Unele drone pot combina tehnologiile de motorizare pentru a obține avantajele atât ale motoarelor electrice, cât și ale celor cu combustie internă. Aceste configurații hibride pot asigura o mai mare eficiență energetică sau autonomie extinsă.
+
+::: figure
+![img](./images/FD-2000W-Gas-powered-UAV-Hybrid-Generator.png)
+
+**Fig. 1.7** FD 2000W Gas powered UAV Hybrid Generator
+
+[https://www.unmannedsystemstechnology.com/company/fly-dragon-drone-tech/fd-2000w-uav-hybrid-generator/]
+:::
+
+Fiecare tip de propulsie are avantaje și dezavantaje. De exemplu, motoarele electrice sunt mai ecologice și mai silențioase, dar pot avea o limită în ceea ce privește autonomia din cauza capacității limitate a bateriilor. Motoarele cu combustie internă pot oferi o autonomie mai mare, dar pot fi zgomotoase și mai poluante. Selectarea tipului de propulsie depinde adesea de necesitățile specifice ale dronei și de aplicațiile pentru care este utilizată.
 
 ## 1.5 Aspecte legale și etice
 
-Poți explora reglementările actuale referitoare la zborul cu drone, precum și aspectele legale și etice legate de confidențialitate, securitate și impactul asupra mediului în care operează dronele.
+Aspectele legale și etice asociate cu utilizarea dronelor sunt fundamentale și vizează normele, reglementările și aspectele morale legate de funcționarea și utilizarea acestor dispozitive aeriene. Aceste aspecte sunt esențiale pentru a asigura o utilizare responsabilă și sigură a dronelor în societate. Drept urmare au fost dezvoltate mai multe reguli și obligații pentru ca să fie posibilă utilizarea tehnologiei date nu doar de companii specializate.
+
+### 1.5.1 Aspecte legale
+
+**Reglementările de zbor**: în multe țări există reglementări specifice privind zborul dronelor, care pot include restricții de altitudine, distanță față de zonele populate sau aeroporturi, și necesitatea de a obține autorizații sau licențe speciale pentru anumite tipuri de activități cu dronele sau categorii de drone în care intră o limitare la specificațiile dronei, esențiale ar fi cele de viteza maximă de zbor, greutatea și zgomotul provocat.
+
+**Confidențialitate și drepturile individuale**: utilizarea dronelor cu echipamente de înregistrare video pot fi utilizate în scopuri mai puțin legale cum ar fi supravegherea zonelor private, ce pune în pericol confidențialitatea firmei/persoanei supravegheate. În multe țări utilizarea dronelor în zone publice sau private, poate fi interpretată ca încălcarea drepturilor și intimitatea oamenilor.
+
+**Siguranța și responsabilitatea**: ținând cont de popularitatea și extinderea pe piață există o gamă largă de drone, care pot fi achiziționate de o persoană necalificată. Operatorii de drone sunt responsabili pentru siguranța și evitarea prejudiciilor sau accidentelor. Respectarea regulilor și instrucțiunilor de zbor este esențială pentru a preveni incidentele.
+
+### 1.5.2 Aspecte etice
+
+**Utilizare militară și securitate**: utilizarea dronelor în scopuri militare sau pentru supravegherea și controlul populației poate ridica întrebări etice legate de etica războiului și drepturile omului.
+
+**Impactul asupra mediului**: dronele pot avea un impact asupra mediului înconjurător, în special atunci când sunt utilizate în zone naturale sau sensibile. Zgomotul, poluarea și deranjul pot afecta fauna și flora locală.
+
+Operatorii de drone trebuie să fie conștienți de aspectele legale și etice asociate utilizării acestor dispozitive și să opereze în conformitate cu reglementările locale și cu principiile etice pentru a asigura utilizarea lor responsabilă și respectuoasă.
+
+::: page
+:::
 
 ## 1.6 Viitorul dronelor
 
-Poate fi interesant să discuți despre direcțiile viitoare în dezvoltarea dronelor, cum ar fi autonomia, inteligența artificială aplicată, durata de zbor extinsă și integrarea în societate.
+Viitorul dronelor este extrem de fascinant și plin de promisiuni în ceea ce privește dezvoltarea tehnologică și diversificarea utilizărilor lor. Câteva direcții majore în evoluția dronelor includ:
 
+**Autonomie extinsă**: dezvoltarea capacității bateriilor utilizate în drone, va extinde autonomia dronelor și durata de zbor, ce poate juca un rol important în extinderea domeniului de aplicare al acestora și vor face utilizarea lor mai viabilă pentru o gamă mai largă de aplicații.
+
+**Integrarea IA**: integrarea inteligenței artificiale în sistemul dronei, va permite dronelor să funcționeze în regim autonom fără a fi necesară intervenția omului pentru încărcarea dronei sau pentru control și navigare. Având un sistem artificial la bordul dronei care poate corecta și crea ruta de zbor, va eficientiza executarea sarcinilor complexe în diverse domenii, de la agricultură la livrări și monitorizare. Dronele vor deveni mai inteligente și mai capabile, ce va reduce intervenția umană pentru perioade mai lungi de timp și în medii complexe.
+
+**Tehnologii de evitare a coliziunilor**: există deja metode de protejare a elicei, ranforsarea carcasei, însă nu toate sistemele pot preveni distrugerea completă a dronei. În continuare se dezvoltă sisteme avansate de detecție și evitare a coliziunilor ce contribuie la creșterea siguranței și a fiabilității dronei, permițând să fie operată în zone aglomerate sau în condiții dificile cu un sistem de co-pilotare.
+
+**Diverse aplicații în industrie**: dronele vor continua să se extindă în diverse domenii, inclusiv în domeniul medical (livrări de medicamente sau echipamente medicale de urgență), construcții (inspecții și monitorizare), precum și în spațiul urban pentru livrări și supraveghere.
+
+**Miniaturizare și inovații în design**: dronele vor deveni mai mici, mai ușoare și mai portabile, deschizând noi posibilități pentru utilizarea lor în spații restrânse sau pentru aplicații personale și recreative.
+
+În ansamblu, viitorul dronelor se profilează ca fiind unul în care aceste dispozitive aeriene vor juca un rol tot mai important în numeroase aspecte ale vieții noastre, aducând cu sine beneficii semnificative în domeniile tehnologiei, economiei și societății în general.
 

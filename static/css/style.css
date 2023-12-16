@@ -3,6 +3,12 @@
     --line-spacing-height: 150%; 
 }
 
+@media print {
+    .pageNumber {
+        counter-set: 3;
+    }
+}
+
 @page {
     width: 210mm;
     height: 297mm;
@@ -16,6 +22,15 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.page-footer {
+    font-size: 10pt;
+}
+
+/* .pageNumber {
+    font-size: 10pt !important;
+    font-family: 'Liberation Serif', sans-serif !important;
+} */
 
 p:first-line {
     text-indent: 0 !important;
