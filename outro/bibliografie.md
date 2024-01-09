@@ -20,3 +20,5 @@
 <https://www.mdpi.com/journal/drones/sections/drone_design_development>
 <https://www.sciencedirect.com/science/article/pii/S0141933121005056>
 <https://www.unmannedsystemstechnology.com/company/fly-dragon-drone-tech/fd-2000w-uav-hybrid-generator/>
+
+<https://towardsdatascience.com/demystifying-drone-dynamics-ee98b1ba882f>
